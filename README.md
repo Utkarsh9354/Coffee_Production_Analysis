@@ -6,9 +6,9 @@ This project focuses on analyzing global coffee production and its impact on eco
 The dataset used in this project contains detailed records of coffee production and associated economic data from key producing countries like Brazil, Colombia, and Ethiopia. Along with production data, it includes import volumes from major coffee-importing nations and price trends paid to growers over time. The analysis provides insights into price fluctuations, country-specific production efficiency, and how these affect global coffee exports.
 
 ### Dataset Fields:
-- **Production Data**: Captures the annual coffee production per country.
-- **Prices Paid to Growers**: Displays how much growers are paid per kilogram of coffee.
-- **Import Data**: Shows the coffee import volumes by country.
+- **Production Data**: Annual coffee production data per country, measured in metric tons.
+- **Prices Paid to Growers**: The price growers receive per kilogram of coffee, in local currency.
+- **Import Data**: Import volumes of coffee by country.
 
 This dataset serves as the foundation for understanding global coffee market dynamics.
 
@@ -43,4 +43,9 @@ This dataset serves as the foundation for understanding global coffee market dyn
 - Fluctuations in currency exchange rates and inflation are not accounted for, which may affect the accuracy of price comparisons.
 - The dataset does not provide information on the quality of the coffee beans, which may influence pricing and market trends.
 - Missing data for certain countries in specific years could skew results, particularly when analyzing global trends.
+
+# Installation and Dependencies
+To run this analysis, the following Python libraries are required:
+- Pandas
+- Matplotlib
 
